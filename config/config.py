@@ -57,21 +57,21 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Asaaq-ali/DinaMusic2",
+    "https://github.com/Teemsoha/larinMusic3",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "soha")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "I_l_D"
+    "CHANNEL_SUDO", "My1mind1"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "༺مشاعر مبعشره༻ "
+    "YAFA_NAME", "ليطمـ𓆰ٰ⍣⃟ٰٰٖٖ۪۬🇾🇪۬ـئن عقلـ۬ۦٕ٘۬ﹻٰ۬ۛۛـي "
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/I_l_D"
+   " YAFA_CHANNEL", "https://t.me/My1mind1"
 )  # رابط قناتك
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
@@ -81,7 +81,7 @@ SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
 )  # Example:- https://t.me/YukkiSupport
 ASAAQ_CHANNEL = getenv(
-   " ASAAQ_CHANNEL", "t.me/I_l_D"
+   " ASAAQ_CHANNEL", "t.me/My1mind1"
 ) 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
