@@ -2,7 +2,6 @@ from pyrogram import filters, Client
 from YukkiMusic import app
 import asyncio
 from pytgcalls import PyTgCalls, StreamType
-from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from YukkiMusic.core.call import Yukki
 from YukkiMusic.utils.database import *
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError,AlreadyJoinedError)
